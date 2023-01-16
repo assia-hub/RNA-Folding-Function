@@ -24,7 +24,7 @@ This script trains the objective function, using interatomic distance distributi
   - 10 distance distributions, for the 10 base pairs (AA, AU, AC, AG, UU, UC, UG, CC, CG, GG)
   - Only "intrachain" distances are considered
   - Only consider residues separated by at least 3 positions on the sequence (_i.e. residues i and i+4, i and i+5, etc._)
-  - Compute the observed frequencies: 10 × 20 distances intervals (0 to 20 Å)
+  - Compute the observed frequencies: 10 Ã— 20 distances intervals (0 to 20 Ã…)
   - Compute the reference frequency (= the "XX" pair)
   - Compute the log-ratio of the two frequencies
 
@@ -49,7 +49,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com/) and [
 1. Clone the repo
 
    ```
-   git clone https://github.com/assia-hub/rna_folding.git
+   git clone https://github.com/assia-hub/RNA-Folding-Function.git
    ```
 
 1. Change to the cloned directory
