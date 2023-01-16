@@ -55,7 +55,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com/) and [
 1. Change to the cloned directory
 
    ```
-   cd rna_folding
+   cd RNA-Folding-Function
    ```
 
 1. Install the requirements using `pip`
